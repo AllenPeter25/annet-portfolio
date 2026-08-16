@@ -1,0 +1,6 @@
+resume/
+node_modules/
+local-server.cjs
+desktop-preview.png
+mobile-preview.png
+README.md
