@@ -1,0 +1,16 @@
+# Private résumé source files
+resume/
+
+# Dependencies
+node_modules/
+
+# Logs and local environment files
+*.log
+.env
+.env.*
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

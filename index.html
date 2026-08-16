@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Annet Jacklin Peter, Junior SAP Manager and SAP Basis and HANA professional." />
+    <meta name="theme-color" content="#071411" />
+    <title>Annet Jacklin Peter — Junior SAP Manager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="config.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Home"><span class="brand-dot"></span><span id="brand-name">AJ.</span></a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
+      <nav id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Expertise</a>
+        <a class="nav-cta" href="#contact">Let’s talk <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-pulse"></span><span id="availability"></span></p>
+          <h1 id="hero-heading"></h1>
+          <p class="hero-intro" id="hero-intro"></p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#experience">Explore my work <span>↓</span></a>
+            <a class="button button-ghost" id="resume-link" href="resume/Annet_CV.pdf" target="_blank" rel="noopener">View résumé <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-visual reveal" aria-label="SAP cloud operations illustration">
+          <div class="orbit orbit-one"><span></span></div><div class="orbit orbit-two"><span></span></div>
+          <div class="visual-card visual-main"><span class="tiny-label" id="system-label"></span><strong id="system-value"></strong><small id="system-description"></small><div class="status-row"><i></i><span id="system-status"></span></div></div>
+          <div class="visual-card visual-chip chip-top"><img class="sap-chip-logo" src="assets/logos/sap.svg" alt="SAP" /><small id="primary-chip"></small></div>
+          <div class="visual-card visual-chip chip-bottom"><span>HANA</span><small id="secondary-chip"></small></div>
+          <svg class="sparkline" viewBox="0 0 260 90" aria-hidden="true"><path d="M2 77 C25 76 28 57 52 60 S84 76 104 49 S139 55 158 30 S190 38 208 19 S240 28 258 4"/><circle cx="258" cy="4" r="4"/></svg>
+        </div>
+        <div class="hero-footer"><span id="location"></span><span>Scroll to discover</span></div>
+      </section>
+
+      <section class="marquee" aria-label="Key specialties"><div id="marquee-content"></div></section>
+
+      <section class="about section-shell" id="about">
+        <div class="section-label reveal"><span>01</span> About</div>
+        <div class="about-content reveal">
+          <p class="large-copy" id="about-copy"></p>
+          <div class="metrics" id="metrics"></div>
+        </div>
+      </section>
+
+      <section class="experience section-shell" id="experience">
+        <div class="section-label reveal"><span>02</span> Experience</div>
+        <div class="section-heading reveal"><h2 id="experience-heading"></h2><p id="experience-intro"></p></div>
+        <div class="timeline" id="experience-list"></div>
+      </section>
+
+      <section class="skills section-shell" id="skills">
+        <div class="section-label reveal"><span>03</span> Expertise</div>
+        <div class="skills-layout">
+          <div class="skills-title reveal"><h2 id="skills-heading"></h2><p id="skills-intro"></p></div>
+          <div class="skill-groups" id="skill-groups"></div>
+        </div>
+      </section>
+
+      <section class="education section-shell" id="education">
+        <div class="section-label reveal"><span>04</span> Education</div>
+        <div class="education-grid" id="education-list"></div>
+      </section>
+
+      <section class="education section-shell" id="credentials">
+        <div class="section-label reveal"><span>05</span> Credentials</div>
+        <div class="education-grid" id="credentials-list"></div>
+      </section>
+
+      <section class="contact section-shell" id="contact">
+        <div class="contact-glow"></div>
+        <p class="eyebrow reveal" id="contact-eyebrow"></p>
+        <h2 class="reveal" id="contact-heading"></h2>
+        <a class="contact-email reveal" id="email-link" href="#"><span id="email-text"></span><i>↗</i></a>
+        <div class="contact-meta reveal"><span id="contact-location"></span><a id="phone-link" href="#"></a><a id="linkedin-link" href="#" target="_blank" rel="noopener">LinkedIn ↗</a></div>
+      </section>
+    </main>
+
+    <footer><a class="brand" href="#top"><span class="brand-dot"></span><span id="footer-initials">AJ.</span></a><p id="footer-note"></p><span id="copyright"></span></footer>
+  </body>
+</html>
