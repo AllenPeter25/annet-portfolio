@@ -4,6 +4,6 @@
   "private": true,
   "description": "Configurable portfolio for Annet Jacklin Peter",
   "scripts": {
-    "start": "node server.js"
+    "dev": "node local-server.cjs"
   }
 }

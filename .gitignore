@@ -3,6 +3,7 @@ resume/
 
 # Dependencies
 node_modules/
+.vercel/
 
 # Logs and local environment files
 *.log

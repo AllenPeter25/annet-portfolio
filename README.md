@@ -7,7 +7,7 @@ This is a configurable portfolio with a small, dependency-free Node.js developme
 From this folder, run:
 
 ```powershell
-npm start
+npm run dev
 ```
 
 Then open `http://localhost:3000/`. The server redirects `/index.html` to `/`, so the visible route never contains `.html`. Press `Ctrl+C` in the terminal to stop the server.
@@ -29,9 +29,10 @@ The portfolio button opens that configured PDF directly. When the main page is o
 
 - `config.js` — editable portfolio content and résumé settings
 - `index.html` — main portfolio template
-- `app.js` — content rendering and interactions
+- `portfolio.js` — browser-side content rendering and interactions
 - `styles.css` — visual styling and responsive layout
 - `assets/logos` — locally stored company logo assets
-- `server.js` — local server with clean URL handling
+- `local-server.cjs` — local-only server with clean URL handling
+- `vercel.json` — static Vercel deployment and clean URL configuration
 
 Company names and logos are the property of their respective owners and are used only to identify employment history.
